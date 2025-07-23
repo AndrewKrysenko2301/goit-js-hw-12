@@ -197,3 +197,20 @@ main {
   background-repeat: no-repeat;
   background-position: center;
 }
+.load-more {
+  display: block;
+  margin: 32px auto 44px auto;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  width: 125px;
+  height: 40px;
+  background: #4e75ff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border: none;
+}
