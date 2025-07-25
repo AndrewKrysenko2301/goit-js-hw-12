@@ -102,7 +102,6 @@ loadMoreBtn.addEventListener('click', async () => {
       });
     }
 
-    // Плавне прокручування після підвантаження
     const galleryItem = document.querySelector('.gallery__item');
     if (galleryItem) {
       const { height: cardHeight } = galleryItem.getBoundingClientRect();
