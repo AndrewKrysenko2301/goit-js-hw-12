@@ -19,19 +19,16 @@ iziToast.settings({
 });
 
 const IMAGES_PER_PAGE = 15;
-document.addEventListener('DOMContentLoaded', () => hideLoadMoreButton());
 
 const form = document.getElementById('search-form');
 const input = form.querySelector('input[name="searchQuery"]');
 const loadMoreBtn = document.getElementById('load-more-btn');
 
+document.addEventListener('DOMContentLoaded', () => hideLoadMoreButton());
+
 let currentPage = 1;
 let currentQuery = '';
 let totalHits = 0;
-
-document.addEventListener('DOMContentLoaded', () => {
-  hideLoadMoreButton();
-});
 
 form.addEventListener('submit', async e => {
   e.preventDefault();

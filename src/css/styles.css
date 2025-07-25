@@ -12,7 +12,9 @@
 }
 
 .hidden {
-  display: none;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
 }
 
 .form {
